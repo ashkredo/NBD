@@ -1,0 +1,32 @@
+MongoDB shell version v4.0.21
+connecting to: mongodb://127.0.0.1:27017/nbd?gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("54633e6d-6a70-4df7-8163-115866e00a9b") }
+MongoDB server version: 4.0.21
+{
+	"_id" : ObjectId("5fd3ca685e7d45144e5d8d9d"),
+	"sex" : "Male",
+	"first_name" : "Jose",
+	"last_name" : "Reynolds",
+	"job" : "Senior Developer",
+	"email" : "jreynolds7@dagondesign.com",
+	"location" : {
+		"city" : "Watuagung",
+		"address" : {
+			"streetname" : "Red Cloud",
+			"streetnumber" : "393"
+		}
+	},
+	"description" : "condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque",
+	"height" : "165.91",
+	"weight" : "67.03",
+	"birth_date" : "1978-04-17T18:22:07Z",
+	"nationality" : "Indonesia",
+	"credit" : [
+		{
+			"type" : "jcb",
+			"number" : "3529195112892553",
+			"currency" : "ILS",
+			"balance" : "4265.17"
+		}
+	]
+}
