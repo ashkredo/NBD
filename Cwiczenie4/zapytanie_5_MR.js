@@ -15,11 +15,11 @@ printjson(db.people.mapReduce(
       "totalBalance" : Array.sum(values)
     }
   },
-	{
-		out: "avg_and_total_female_balance",
+  {
+    out: "avg_and_total_female_balance",
     query: {
       sex : "Female",
       nationality : "Poland"
     }
-	}
+  }
 ).find().toArray());
