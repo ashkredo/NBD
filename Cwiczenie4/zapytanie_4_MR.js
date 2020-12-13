@@ -6,22 +6,22 @@ printjson(db.people.mapReduce(
   },
   function(key, values) {
     reducedVal = { count : 0, bmi : 0, minBMI : values[0].minBMI, maxBMI : values[0].maxBMI };
-  	for (var idx = 0; idx < values.length; idx++) {
-  		reducedVal.count += values[idx].count;
-  		reducedVal.bmi += values[idx].bmi;
-  		reducedVal.minBMI = Math.min(reducedVal.minBMI, values[idx].minBMI);
-  		reducedVal.maxBMI = Math.max(reducedVal.maxBMI, values[idx].maxBMI);
-  	}
+      for (var idx = 0; idx < values.length; idx++) {
+        reducedVal.count += values[idx].count;
+        reducedVal.bmi += values[idx].bmi;
+        reducedVal.minBMI = Math.min(reducedVal.minBMI, values[idx].minBMI);
+        reducedVal.maxBMI = Math.max(reducedVal.maxBMI, values[idx].maxBMI);
+      }
     return reducedVal;
   },
-	{
-		out: "bmi",
+  {
+    out: "bmi",
     finalize: function (key, reducedValue) {
-    	return {
+      return {
         avgBMI : reducedValue.bmi / reducedValue.count,
         minBMI : reducedValue.minBMI,
         maxBMI : reducedValue.maxBMI
       };
     }
-	}
+  }
 ).find().toArray());
