@@ -1,0 +1,1703 @@
+﻿[
+  {
+    "actor": {
+"identity": 1,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Keanu Reeves",
+"born": 1964
+      }
+    },
+    "count(movie)": 7,
+    "movies": [
+      "Something's Gotta Give",
+      "The Replacements",
+      "Johnny Mnemonic",
+      "The Devil's Advocate",
+      "The Matrix Revolutions",
+      "The Matrix Reloaded",
+      "The Matrix"
+    ]
+  },
+  {
+    "actor": {
+"identity": 2,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Carrie-Anne Moss",
+"born": 1967
+      }
+    },
+    "count(movie)": 3,
+    "movies": [
+      "The Matrix Revolutions",
+      "The Matrix Reloaded",
+      "The Matrix"
+    ]
+  },
+  {
+    "actor": {
+"identity": 3,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Laurence Fishburne",
+"born": 1961
+      }
+    },
+    "count(movie)": 3,
+    "movies": [
+      "The Matrix Revolutions",
+      "The Matrix Reloaded",
+      "The Matrix"
+    ]
+  },
+  {
+    "actor": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    },
+    "count(movie)": 5,
+    "movies": [
+      "Cloud Atlas",
+      "V for Vendetta",
+      "The Matrix Revolutions",
+      "The Matrix Reloaded",
+      "The Matrix"
+    ]
+  },
+  {
+    "actor": {
+"identity": 8,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Emil Eifrem",
+"born": 1978
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "The Matrix"
+    ]
+  },
+  {
+    "actor": {
+"identity": 12,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Charlize Theron",
+"born": 1975
+      }
+    },
+    "count(movie)": 2,
+    "movies": [
+      "That Thing You Do",
+      "The Devil's Advocate"
+    ]
+  },
+  {
+    "actor": {
+"identity": 13,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Al Pacino",
+"born": 1940
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "The Devil's Advocate"
+    ]
+  },
+  {
+    "actor": {
+"identity": 16,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Tom Cruise",
+"born": 1962
+      }
+    },
+    "count(movie)": 3,
+    "movies": [
+      "Jerry Maguire",
+      "Top Gun",
+      "A Few Good Men"
+    ]
+  },
+  {
+    "actor": {
+"identity": 17,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Jack Nicholson",
+"born": 1937
+      }
+    },
+    "count(movie)": 5,
+    "movies": [
+      "As Good as It Gets",
+      "One Flew Over the Cuckoo's Nest",
+      "Something's Gotta Give",
+      "Hoffa",
+      "A Few Good Men"
+    ]
+  },
+  {
+    "actor": {
+"identity": 18,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Demi Moore",
+"born": 1962
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "A Few Good Men"
+    ]
+  },
+  {
+    "actor": {
+"identity": 19,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Kevin Bacon",
+"born": 1958
+      }
+    },
+    "count(movie)": 3,
+    "movies": [
+      "Apollo 13",
+      "Frost/Nixon",
+      "A Few Good Men"
+    ]
+  },
+  {
+    "actor": {
+"identity": 20,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Kiefer Sutherland",
+"born": 1966
+      }
+    },
+    "count(movie)": 2,
+    "movies": [
+      "Stand By Me",
+      "A Few Good Men"
+    ]
+  },
+  {
+    "actor": {
+"identity": 21,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Noah Wyle",
+"born": 1971
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "A Few Good Men"
+    ]
+  },
+  {
+    "actor": {
+"identity": 22,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Cuba Gooding Jr.",
+"born": 1968
+      }
+    },
+    "count(movie)": 4,
+    "movies": [
+      "What Dreams May Come",
+      "Jerry Maguire",
+      "As Good as It Gets",
+      "A Few Good Men"
+    ]
+  },
+  {
+    "actor": {
+"identity": 23,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Kevin Pollak",
+"born": 1957
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "A Few Good Men"
+    ]
+  },
+  {
+    "actor": {
+"identity": 24,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "J.T. Walsh",
+"born": 1943
+      }
+    },
+    "count(movie)": 2,
+    "movies": [
+      "Hoffa",
+      "A Few Good Men"
+    ]
+  },
+  {
+    "actor": {
+"identity": 25,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "James Marshall",
+"born": 1967
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "A Few Good Men"
+    ]
+  },
+  {
+    "actor": {
+"identity": 26,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Christopher Guest",
+"born": 1948
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "A Few Good Men"
+    ]
+  },
+  {
+    "actor": {
+"identity": 28,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Aaron Sorkin",
+"born": 1961
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "A Few Good Men"
+    ]
+  },
+  {
+    "actor": {
+"identity": 30,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Kelly McGillis",
+"born": 1957
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "Top Gun"
+    ]
+  },
+  {
+    "actor": {
+"identity": 31,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Val Kilmer",
+"born": 1959
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "Top Gun"
+    ]
+  },
+  {
+    "actor": {
+"identity": 32,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Anthony Edwards",
+"born": 1962
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "Top Gun"
+    ]
+  },
+  {
+    "actor": {
+"identity": 33,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Tom Skerritt",
+"born": 1933
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "Top Gun"
+    ]
+  },
+  {
+    "actor": {
+"identity": 34,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Meg Ryan",
+"born": 1961
+      }
+    },
+    "count(movie)": 5,
+    "movies": [
+      "Sleepless in Seattle",
+      "You've Got Mail",
+      "Top Gun",
+      "When Harry Met Sally",
+      "Joe Versus the Volcano"
+    ]
+  },
+  {
+    "actor": {
+"identity": 38,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Renee Zellweger",
+"born": 1969
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "Jerry Maguire"
+    ]
+  },
+  {
+    "actor": {
+"identity": 39,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Kelly Preston",
+"born": 1962
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "Jerry Maguire"
+    ]
+  },
+  {
+    "actor": {
+"identity": 40,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Jerry O'Connell",
+"born": 1974
+      }
+    },
+    "count(movie)": 2,
+    "movies": [
+      "Jerry Maguire",
+      "Stand By Me"
+    ]
+  },
+  {
+    "actor": {
+"identity": 41,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Jay Mohr",
+"born": 1970
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "Jerry Maguire"
+    ]
+  },
+  {
+    "actor": {
+"identity": 42,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Bonnie Hunt",
+"born": 1961
+      }
+    },
+    "count(movie)": 2,
+    "movies": [
+      "The Green Mile",
+      "Jerry Maguire"
+    ]
+  },
+  {
+    "actor": {
+"identity": 43,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Regina King",
+"born": 1971
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "Jerry Maguire"
+    ]
+  },
+  {
+    "actor": {
+"identity": 44,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Jonathan Lipnicki",
+"born": 1996
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "Jerry Maguire"
+    ]
+  },
+  {
+    "actor": {
+"identity": 47,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "River Phoenix",
+"born": 1970
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "Stand By Me"
+    ]
+  },
+  {
+    "actor": {
+"identity": 48,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Corey Feldman",
+"born": 1971
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "Stand By Me"
+    ]
+  },
+  {
+    "actor": {
+"identity": 49,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Wil Wheaton",
+"born": 1972
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "Stand By Me"
+    ]
+  },
+  {
+    "actor": {
+"identity": 50,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "John Cusack",
+"born": 1966
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "Stand By Me"
+    ]
+  },
+  {
+    "actor": {
+"identity": 51,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Marshall Bell",
+"born": 1942
+      }
+    },
+    "count(movie)": 2,
+    "movies": [
+      "Stand By Me",
+      "RescueDawn"
+    ]
+  },
+  {
+    "actor": {
+"identity": 53,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Helen Hunt",
+"born": 1963
+      }
+    },
+    "count(movie)": 3,
+    "movies": [
+      "As Good as It Gets",
+      "Cast Away",
+      "Twister"
+    ]
+  },
+  {
+    "actor": {
+"identity": 54,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Greg Kinnear",
+"born": 1963
+      }
+    },
+    "count(movie)": 2,
+    "movies": [
+      "You've Got Mail",
+      "As Good as It Gets"
+    ]
+  },
+  {
+    "actor": {
+"identity": 57,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Annabella Sciorra",
+"born": 1960
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "What Dreams May Come"
+    ]
+  },
+  {
+    "actor": {
+"identity": 58,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Max von Sydow",
+"born": 1929
+      }
+    },
+    "count(movie)": 2,
+    "movies": [
+      "What Dreams May Come",
+      "Snow Falling on Cedars"
+    ]
+  },
+  {
+    "actor": {
+"identity": 59,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Werner Herzog",
+"born": 1942
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "What Dreams May Come"
+    ]
+  },
+  {
+    "actor": {
+"identity": 60,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Robin Williams",
+"born": 1951
+      }
+    },
+    "count(movie)": 3,
+    "movies": [
+      "What Dreams May Come",
+      "Bicentennial Man",
+      "The Birdcage"
+    ]
+  },
+  {
+    "actor": {
+"identity": 63,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Ethan Hawke",
+"born": 1970
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "Snow Falling on Cedars"
+    ]
+  },
+  {
+    "actor": {
+"identity": 64,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Rick Yune",
+"born": 1971
+      }
+    },
+    "count(movie)": 2,
+    "movies": [
+      "Ninja Assassin",
+      "Snow Falling on Cedars"
+    ]
+  },
+  {
+    "actor": {
+"identity": 65,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "James Cromwell",
+"born": 1940
+      }
+    },
+    "count(movie)": 2,
+    "movies": [
+      "The Green Mile",
+      "Snow Falling on Cedars"
+    ]
+  },
+  {
+    "actor": {
+"identity": 68,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Parker Posey",
+"born": 1968
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "You've Got Mail"
+    ]
+  },
+  {
+    "actor": {
+"identity": 69,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Dave Chappelle",
+"born": 1973
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "You've Got Mail"
+    ]
+  },
+  {
+    "actor": {
+"identity": 70,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Steve Zahn",
+"born": 1967
+      }
+    },
+    "count(movie)": 2,
+    "movies": [
+      "RescueDawn",
+      "You've Got Mail"
+    ]
+  },
+  {
+    "actor": {
+"identity": 71,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Tom Hanks",
+"born": 1956
+      }
+    },
+    "count(movie)": 12,
+    "movies": [
+      "Apollo 13",
+      "You've Got Mail",
+      "A League of Their Own",
+      "Joe Versus the Volcano",
+      "That Thing You Do",
+      "The Da Vinci Code",
+      "Cloud Atlas",
+      "Cast Away",
+      "The Green Mile",
+      "Sleepless in Seattle",
+      "The Polar Express",
+      "Charlie Wilson's War"
+    ]
+  },
+  {
+    "actor": {
+"identity": 74,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Rita Wilson",
+"born": 1956
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "Sleepless in Seattle"
+    ]
+  },
+  {
+    "actor": {
+"identity": 75,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Bill Pullman",
+"born": 1953
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "Sleepless in Seattle"
+    ]
+  },
+  {
+    "actor": {
+"identity": 76,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Victor Garber",
+"born": 1949
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "Sleepless in Seattle"
+    ]
+  },
+  {
+    "actor": {
+"identity": 77,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Rosie O'Donnell",
+"born": 1962
+      }
+    },
+    "count(movie)": 2,
+    "movies": [
+      "A League of Their Own",
+      "Sleepless in Seattle"
+    ]
+  },
+  {
+    "actor": {
+"identity": 80,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Nathan Lane",
+"born": 1956
+      }
+    },
+    "count(movie)": 2,
+    "movies": [
+      "Joe Versus the Volcano",
+      "The Birdcage"
+    ]
+  },
+  {
+    "actor": {
+"identity": 82,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Billy Crystal",
+"born": 1948
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "When Harry Met Sally"
+    ]
+  },
+  {
+    "actor": {
+"identity": 83,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Carrie Fisher",
+"born": 1956
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "When Harry Met Sally"
+    ]
+  },
+  {
+    "actor": {
+"identity": 84,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Bruno Kirby",
+"born": 1949
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "When Harry Met Sally"
+    ]
+  },
+  {
+    "actor": {
+"identity": 86,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Liv Tyler",
+"born": 1977
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "That Thing You Do"
+    ]
+  },
+  {
+    "actor": {
+"identity": 88,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Brooke Langton",
+"born": 1970
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "The Replacements"
+    ]
+  },
+  {
+    "actor": {
+"identity": 89,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Gene Hackman",
+"born": 1930
+      }
+    },
+    "count(movie)": 3,
+    "movies": [
+      "Unforgiven",
+      "The Birdcage",
+      "The Replacements"
+    ]
+  },
+  {
+    "actor": {
+"identity": 90,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Orlando Jones",
+"born": 1968
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "The Replacements"
+    ]
+  },
+  {
+    "actor": {
+"identity": 93,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Christian Bale",
+"born": 1974
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "RescueDawn"
+    ]
+  },
+  {
+    "actor": {
+"identity": 94,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Zach Grenier",
+"born": 1954
+      }
+    },
+    "count(movie)": 2,
+    "movies": [
+      "RescueDawn",
+      "Twister"
+    ]
+  },
+  {
+    "actor": {
+"identity": 98,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Richard Harris",
+"born": 1930
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "Unforgiven"
+    ]
+  },
+  {
+    "actor": {
+"identity": 99,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Clint Eastwood",
+"born": 1930
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "Unforgiven"
+    ]
+  },
+  {
+    "actor": {
+"identity": 101,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Takeshi Kitano",
+"born": 1947
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "Johnny Mnemonic"
+    ]
+  },
+  {
+    "actor": {
+"identity": 102,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Dina Meyer",
+"born": 1968
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "Johnny Mnemonic"
+    ]
+  },
+  {
+    "actor": {
+"identity": 103,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Ice-T",
+"born": 1958
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "Johnny Mnemonic"
+    ]
+  },
+  {
+    "actor": {
+"identity": 106,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Halle Berry",
+"born": 1966
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "Cloud Atlas"
+    ]
+  },
+  {
+    "actor": {
+"identity": 107,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Jim Broadbent",
+"born": 1949
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "Cloud Atlas"
+    ]
+  },
+  {
+    "actor": {
+"identity": 112,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Ian McKellen",
+"born": 1939
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "The Da Vinci Code"
+    ]
+  },
+  {
+    "actor": {
+"identity": 113,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Audrey Tautou",
+"born": 1976
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "The Da Vinci Code"
+    ]
+  },
+  {
+    "actor": {
+"identity": 114,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Paul Bettany",
+"born": 1971
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "The Da Vinci Code"
+    ]
+  },
+  {
+    "actor": {
+"identity": 117,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Natalie Portman",
+"born": 1981
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "V for Vendetta"
+    ]
+  },
+  {
+    "actor": {
+"identity": 118,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Stephen Rea",
+"born": 1946
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "V for Vendetta"
+    ]
+  },
+  {
+    "actor": {
+"identity": 119,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "John Hurt",
+"born": 1940
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "V for Vendetta"
+    ]
+  },
+  {
+    "actor": {
+"identity": 120,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Ben Miles",
+"born": 1967
+      }
+    },
+    "count(movie)": 3,
+    "movies": [
+      "Speed Racer",
+      "Ninja Assassin",
+      "V for Vendetta"
+    ]
+  },
+  {
+    "actor": {
+"identity": 122,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Emile Hirsch",
+"born": 1985
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "Speed Racer"
+    ]
+  },
+  {
+    "actor": {
+"identity": 123,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "John Goodman",
+"born": 1960
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "Speed Racer"
+    ]
+  },
+  {
+    "actor": {
+"identity": 124,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Susan Sarandon",
+"born": 1946
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "Speed Racer"
+    ]
+  },
+  {
+    "actor": {
+"identity": 125,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Matthew Fox",
+"born": 1966
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "Speed Racer"
+    ]
+  },
+  {
+    "actor": {
+"identity": 126,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Christina Ricci",
+"born": 1980
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "Speed Racer"
+    ]
+  },
+  {
+    "actor": {
+"identity": 127,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Rain",
+"born": 1982
+      }
+    },
+    "count(movie)": 2,
+    "movies": [
+      "Speed Racer",
+      "Ninja Assassin"
+    ]
+  },
+  {
+    "actor": {
+"identity": 129,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Naomie Harris"
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "Ninja Assassin"
+    ]
+  },
+  {
+    "actor": {
+"identity": 131,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Michael Clarke Duncan",
+"born": 1957
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "The Green Mile"
+    ]
+  },
+  {
+    "actor": {
+"identity": 132,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "David Morse",
+"born": 1953
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "The Green Mile"
+    ]
+  },
+  {
+    "actor": {
+"identity": 133,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Sam Rockwell",
+"born": 1968
+      }
+    },
+    "count(movie)": 2,
+    "movies": [
+      "The Green Mile",
+      "Frost/Nixon"
+    ]
+  },
+  {
+    "actor": {
+"identity": 134,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Gary Sinise",
+"born": 1955
+      }
+    },
+    "count(movie)": 2,
+    "movies": [
+      "Apollo 13",
+      "The Green Mile"
+    ]
+  },
+  {
+    "actor": {
+"identity": 135,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Patricia Clarkson",
+"born": 1959
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "The Green Mile"
+    ]
+  },
+  {
+    "actor": {
+"identity": 138,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Frank Langella",
+"born": 1938
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "Frost/Nixon"
+    ]
+  },
+  {
+    "actor": {
+"identity": 139,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Michael Sheen",
+"born": 1969
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "Frost/Nixon"
+    ]
+  },
+  {
+    "actor": {
+"identity": 140,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Oliver Platt",
+"born": 1960
+      }
+    },
+    "count(movie)": 2,
+    "movies": [
+      "Frost/Nixon",
+      "Bicentennial Man"
+    ]
+  },
+  {
+    "actor": {
+"identity": 142,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Danny DeVito",
+"born": 1944
+      }
+    },
+    "count(movie)": 2,
+    "movies": [
+      "Hoffa",
+      "One Flew Over the Cuckoo's Nest"
+    ]
+  },
+  {
+    "actor": {
+"identity": 143,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "John C. Reilly",
+"born": 1965
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "Hoffa"
+    ]
+  },
+  {
+    "actor": {
+"identity": 145,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Ed Harris",
+"born": 1950
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "Apollo 13"
+    ]
+  },
+  {
+    "actor": {
+"identity": 146,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Bill Paxton",
+"born": 1955
+      }
+    },
+    "count(movie)": 3,
+    "movies": [
+      "Twister",
+      "A League of Their Own",
+      "Apollo 13"
+    ]
+  },
+  {
+    "actor": {
+"identity": 148,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Philip Seymour Hoffman",
+"born": 1967
+      }
+    },
+    "count(movie)": 2,
+    "movies": [
+      "Twister",
+      "Charlie Wilson's War"
+    ]
+  },
+  {
+    "actor": {
+"identity": 155,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Diane Keaton",
+"born": 1946
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "Something's Gotta Give"
+    ]
+  },
+  {
+    "actor": {
+"identity": 160,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Julia Roberts",
+"born": 1967
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "Charlie Wilson's War"
+    ]
+  },
+  {
+    "actor": {
+"identity": 163,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Madonna",
+"born": 1954
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "A League of Their Own"
+    ]
+  },
+  {
+    "actor": {
+"identity": 164,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Geena Davis",
+"born": 1956
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "A League of Their Own"
+    ]
+  },
+  {
+    "actor": {
+"identity": 165,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Lori Petty",
+"born": 1963
+      }
+    },
+    "count(movie)": 1,
+    "movies": [
+      "A League of Their Own"
+    ]
+  }
+]
