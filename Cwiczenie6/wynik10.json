@@ -1,0 +1,99 @@
+﻿[
+  {
+    "flight": {
+"start": {
+"identity": 202,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "MSN"
+        }
+      },
+"end": {
+"identity": 249,
+"labels": [
+          "Airport"
+        ],
+"properties": {
+"name": "GRR"
+        }
+      },
+"segments": [
+        {
+          "start": {
+"identity": 202,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "MSN"
+            }
+          },
+          "relationship": {
+"identity": 1974,
+"start": 188,
+"end": 202,
+"type": "CheapestFlight",
+"properties": {
+"date": "11/30/2015 04:08:17",
+"duration": 23,
+"distance": 108,
+"price": 86.25,
+"airline": "19977",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 188,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          }
+        },
+        {
+          "start": {
+"identity": 188,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "ORD"
+            }
+          },
+          "relationship": {
+"identity": 2095,
+"start": 188,
+"end": 249,
+"type": "CheapestFlight",
+"properties": {
+"date": "11/17/2015 16:11:47",
+"duration": 23,
+"distance": 137,
+"price": 108.0,
+"airline": "20304",
+"class": "economy"
+            }
+          },
+          "end": {
+"identity": 249,
+"labels": [
+              "Airport"
+            ],
+"properties": {
+"name": "GRR"
+            }
+          }
+        }
+      ],
+"length": 2.0
+    },
+    "price": 194.25,
+    "firstAirport.name": "MSN",
+    "secondAirport.name": "ORD",
+    "thirdAirport.name": "GRR"
+  }
+]

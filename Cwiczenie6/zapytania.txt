@@ -1,0 +1,99 @@
+@author Shkred Artur S15444
+--------------------------------------------------------------------------------
+                          Część 1 – Wycieczki górskie
+-----------------------------------#Zadanie 1-----------------------------------
+Znajdź trasy którymi można dostać się z Darjeeling na Sandakphu, mające
+najmniejszą ilość etapów:
+
+MATCH shortestRouteDS = allShortestPaths((:town { name: 'Darjeeling' })-[*]->(:peak { name: 'Sandakphu' }))
+RETURN shortestRouteDS
+-----------------------------------#Zadanie 2-----------------------------------
+Znajdź mające najmniej etapów trasy którymi można dostać się z Darjeeling na
+Sandakphu i które mogą być wykorzystywane zimą:
+
+MATCH shortestRouteDS = allShortestPaths((:town { name: 'Darjeeling' })-[*]->(:peak { name: 'Sandakphu' }))
+WHERE ALL (route IN relationships(shortestRouteDS) WHERE route.winter = 'true')
+RETURN shortestRouteDS AS shortestWinterRouteDS
+-----------------------------------#Zadanie 3-----------------------------------
+Uszereguj trasy którymi można dostać się z Darjeeling na Sandakphu według dystansu:
+
+MATCH routeDS = (:town { name: 'Darjeeling' })-[*]->(:peak { name: 'Sandakphu' })
+WITH routeDS, reduce(totalDistance = 0, route IN relationships(routeDS) | totalDistance + route.distance) AS distance
+RETURN routeDS, distance ORDER BY distance
+
+Znajdź wszystkie miejsca do których można dotrzeć przy pomocy roweru (twowheeler)
+z Darjeeling latem:
+
+MATCH routeFD = (:town { name: 'Darjeeling' })-[*]->(to)
+WHERE ALL (route IN relationships(routeFD) WHERE route.summer = 'true' AND type(route) = 'twowheeler')
+RETURN DISTINCT to.name AS travel
+--------------------------------------------------------------------------------
+                          Część 2 – Połączenia lotnicze
+-----------------------------------#Zadanie 4-----------------------------------
+Uszereguj porty lotnicze według ilości rozpoczynających się w nich lotów:
+
+MATCH (flight:Flight)-[:ORIGIN]->(airport:Airport)
+RETURN airport, COUNT(flight) AS flights ORDER BY flights
+-----------------------------------#Zadanie 5-----------------------------------
+Znajdź wszystkie porty lotnicze, do których da się dolecieć (bezpośrednio lub z
+przesiadkami) z Los Angeles (LAX) wydając mniej niż 3000:
+
+MATCH (dAirport:Airport)<-[origin:ORIGIN]-(flight:Flight)-[destination:DESTINATION]->(aAirport:Airport),(flight)<-[:ASSIGN]-(ticket:Ticket)
+WITH dAirport, flight, aAirport, MIN(ticket.price) AS minTicketPrice
+MATCH (flight)<-[:ASSIGN]-(minTicket: Ticket { price: minTicketPrice })
+CREATE (dAirport)-[cheapestFlights:CheapestFlight { class: minTicket.class, date: flight.date, airline: flight.airline, price: minTicket.price, duration: flight.duration, distance: flight.distance }]->(aAirport)
+RETURN cheapestFlights AS CheapestFlights ORDER BY CheapestFlights.price ASC
+
+MATCH cheapestFlights = (dAirport:Airport { name: "LAX" })-[cheapestFlight:CheapestFlight*1..7]->(aAirport:Airport)
+WITH aAirport, cheapestFlights, reduce(totalPrice = 0, flight IN relationships(cheapestFlights) | totalPrice + flight.price) AS finalTotalPrice
+WHERE finalTotalPrice < 3000
+RETURN DISTINCT aAirport
+-----------------------------------#Zadanie 6-----------------------------------
+Uszereguj połączenia, którymi można dotrzeć z Los Angeles (LAX) do Dayton (DAY)
+według ceny biletów:
+
+MATCH flightLD = (:Airport { name: 'LAX' })-[*]->(:Airport { name: 'DAY' })
+WITH flightLD, reduce(totalPrice = 0, flight IN relationships(flightLD) | totalPrice + flight.price) AS totalPrice
+RETURN flightLD, totalPrice ORDER BY totalPrice ASC
+
+// Niestety bez wyniku (nie ma połączeń z Los Angeles (LAX) do Dayton (DAY)),
+// ale testowałem między innymi połączeniami i wszystko działalo.
+-----------------------------------#Zadanie 7-----------------------------------
+Znajdź najtańsze połączenie z Los Angeles (LAX) do Dayton (DAY):
+
+MATCH flightLD = (:Airport { name: 'LAX' })-[cheapestFlight:CheapestFlight*]->(:Airport { name: 'DAY' })
+WITH flightLD, reduce(totalPrice = 0, flight IN relationships(flightLD) | totalPrice + flight.price) AS totalPrice
+RETURN flightLD, totalPrice ORDER BY totalPrice ASC
+LIMIT 1
+
+// Niestety bez wyniku (nie ma połączeń z Los Angeles (LAX) do Dayton (DAY)),
+// ale testowałem między innymi połączeniami i wszystko działalo.
+-----------------------------------#Zadanie 8-----------------------------------
+Znajdź najtańsze połączenie z Los Angeles (LAX) do Dayton (DAY) w klasie biznes:
+
+MATCH (dAirport:Airport)<-[:DESTINATION]-(flight:Flight)-[:ORIGIN]->(aAirport:Airport), (t:Ticket { class : 'business' })-[:ASSIGN]->(flight)
+CREATE (aAirport)-[businessClass:BusinessClass { class: t.class, price: t.price, duration: flight.duration, date: flight.date, distance: flight.distance, airline: flight.airline }]->(dAirport)
+RETURN businessClass;
+
+MATCH flightsLD=(dAirport:Airport { name : 'LAX' })-[businessClass:BusinessClass*1..5]->(aAirport:Airport { name : 'DAY' }), (dAirport:Airport)<-[:ORIGIN]-(), (arrivalAirport:Airport)<-[:DESTINATION]-()
+WITH flightsLD, reduce(totalPrice = 0, flight IN relationships(flightsLD) | totalPrice + flight.price) AS price
+RETURN flightsLD AS flight, price ORDER BY price ASC
+LIMIT 1
+
+// Niestety bez wyniku (nie ma połączeń z Los Angeles (LAX) do Dayton (DAY)),
+// ale testowałem między innymi połączeniami i wszystko działalo.
+-----------------------------------#Zadanie 9-----------------------------------
+Uszereguj linie lotnicze według ilości miast, pomiędzy którymi oferują połączenia
+(unikalnych miast biorących udział w relacjach :ORIGIN i :DESTINATION węzłów
+typu Flight obsługiwanych przez daną linię):
+
+MATCH (airport:Airport)-[:ORIGIN|:DESTINATION]-(flight:Flight)
+RETURN flight.airline AS airline, COUNT(DISTINCT airport) AS countCities ORDER BY countCities ASC
+-----------------------------------#Zadanie 10----------------------------------
+Znajdź najtańszą trasę łączącą 3 różne porty lotnicze:
+
+MATCH flight = (firstAirport:Airport)-[firstCFlight:CheapestFlight]-(secondAirport:Airport)-[secondCFlight:CheapestFlight]-(thirdAirport:Airport)
+WHERE firstAirport.name <> thirdAirport.name
+WITH flight, (firstCFlight.price + secondCFlight.price) AS price, firstAirport, secondAirport, thirdAirport
+RETURN flight, price, firstAirport.name, secondAirport.name, thirdAirport.name ORDER BY price ASC
+LIMIT 1
