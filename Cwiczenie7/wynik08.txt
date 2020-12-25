@@ -1,0 +1,15 @@
+HTTP/1.1 201 Created
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fsak+jswMLxKzGBKZMxjZai6FHWTLwsA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.8 (that head fake, tho)
+Location: /buckets/s15444/keys/DpRKHqcLRdOtaOnxp4hrOghIBit
+Link: </buckets/s15444>; rel="up"
+Last-Modified: Fri, 25 Dec 2020 21:15:38 GMT
+ETag: "2ngHTIKRfNy7mHlNShG581"
+Date: Fri, 25 Dec 2020 21:15:38 GMT
+Content-Type: application/json
+Content-Length: 28
+
+{
+  "name": "Artur Shkred"
+}

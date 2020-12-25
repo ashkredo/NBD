@@ -1,0 +1,93 @@
+@author Shkred Artur S15444
+-----------------------------------#Zadanie 1-----------------------------------
+Umieść w bazie (nazwa bucketa ma być Twoim numerem indeksu poprzedzonym literą
+„s”) 5 wartości, gdzie każda z nich ma być dokumentem json mającym 4 pola co
+najmniej dwóch różnych typów:
+
+curl -i -XPOST -H "Content-Type: application/json" -d '{
+  "name": "Benjamin Romero",
+  "studiesAverage": 5.0,
+  "requiredInternships": 320,
+  "isGraduate": false
+}' http://localhost:8098/buckets/s15444/keys/benjamin112
+
+curl -i -XPOST -H "Content-Type: application/json" -d '{
+  "name": "Shawn Little",
+  "studiesAverage": 4.73,
+  "requiredInternships": 0,
+  "isGraduate": false
+}' http://localhost:8098/buckets/s15444/keys/shawn
+
+curl -i -XPOST -H "Content-Type: application/json" -d '{
+  "name": "Samuel Flores",
+  "studiesAverage": 3.4,
+  "requiredInternships": 320,
+  "isGraduate": true
+}' http://localhost:8098/buckets/s15444/keys/samuel13
+
+curl -i -XPOST -H "Content-Type: application/json" -d '{
+  "name": "Sean Duncan",
+  "studiesAverage": 4.46,
+  "requiredInternships": 320,
+  "isGraduate": false
+}' http://localhost:8098/buckets/s15444/keys/sean4
+
+curl -i -XPOST -H "Content-Type: application/json" -d '{
+  "name": "Roy Martinez",
+  "studiesAverage": 3.5,
+  "requiredInternships": 0,
+  "isGraduate": true
+}' http://localhost:8098/buckets/s15444/keys/roy
+-----------------------------------#Zadanie 2-----------------------------------
+Pobierz z bazy jedną z dodanych przez Ciebie wartości:
+
+curl -i http://localhost:8098/buckets/s15444/keys/sean4
+-----------------------------------#Zadanie 3-----------------------------------
+Zmodyfikuj jedną z wartości – dodając dodatkowe pole do dokumentu:
+
+curl -i -XPUT -H "Content-Type: application/json" -d '{
+  "name": "Sean Duncan",
+  "studiesAverage": 4.46,
+  "requiredInternships": 320,
+  "status": "Hello, world!",
+  "isGraduate": false
+}' http://localhost:8098/buckets/s15444/keys/sean4?returnbody=true
+-----------------------------------#Zadanie 4-----------------------------------
+Zmodyfikuj jedną z wartości – usuwając jedną pole z wybranego dokumentu:
+
+curl -i -XPUT -H "Content-Type: application/json" -d '{
+  "name": "Benjamin Romero",
+  "studiesAverage": 5.0,
+  "isGraduate": false
+}' http://localhost:8098/buckets/s15444/keys/benjamin112?returnbody=true
+-----------------------------------#Zadanie 5-----------------------------------
+Zmodyfikuj jedną z wartości – zmieniając wartość jednego z pól:
+
+curl -i -XPUT -H "Content-Type: application/json" -d '{
+  "name": "Benjamin Romero",
+  "studiesAverage": 5.0,
+  "isGraduate": true
+}' http://localhost:8098/buckets/s15444/keys/benjamin112?returnbody=true
+-----------------------------------#Zadanie 6-----------------------------------
+Usuń jeden z dokumentów z bazy:
+
+curl -i -XDELETE http://localhost:8098/buckets/s15444/keys/samuel13
+-----------------------------------#Zadanie 7-----------------------------------
+Spróbuj pobrać z bazy wartość, która nie istnieje w tej bazie:
+
+curl -i http://localhost:8098/buckets/s15444/keys/samuel13
+-----------------------------------#Zadanie 8-----------------------------------
+Dodaj do bazy 1 dokument json (zawierający 1 pole), ale nie specyfikuj klucza:
+
+curl -i -XPOST -H "Content-Type: application/json" -d '{
+  "name": "Artur Shkred"
+}' http://localhost:8098/buckets/s15444/keys?returnbody=true
+-----------------------------------#Zadanie 9-----------------------------------
+Pobierz z bazy element z zadania 8:
+
+curl -i http://localhost:8098/buckets/s15444/keys?keys=true
+curl -i http://localhost:8098/buckets/s15444/keys/DpRKHqcLRdOtaOnxp4hrOghIBit
+-----------------------------------#Zadanie 10----------------------------------
+Usuń z bazy element z zadania 8:
+
+curl -i -XDELETE http://localhost:8098/buckets/s15444/keys/DpRKHqcLRdOtaOnxp4hrOghIBit

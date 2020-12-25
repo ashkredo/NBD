@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fsaEu4QzMLxKzGBKZMxjZcg+E3WTLwsA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.8 (that head fake, tho)
+Link: </buckets/s15444>; rel="up"
+Last-Modified: Fri, 25 Dec 2020 20:49:47 GMT
+ETag: "51r7q1Q4kvzqk6eE3bKRzW"
+Date: Fri, 25 Dec 2020 20:51:11 GMT
+Content-Type: application/json
+Content-Length: 106
+
+{
+  "name": "Sean Duncan",
+  "studiesAverage": 4.46,
+  "requiredInternships": 320,
+  "isGraduate": false
+}

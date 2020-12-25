@@ -1,0 +1,24 @@
+HTTP/1.1 200 OK
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.8 (that head fake, tho)
+Date: Fri, 25 Dec 2020 21:19:33 GMT
+Content-Type: application/json
+Content-Length: 76
+
+{"keys":["benjamin112","sean4","DpRKHqcLRdOtaOnxp4hrOghIBit","shawn","roy"]}HTTP/1.1 200 OK
+
+--------------------------------------------------------------------------------------------
+
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fsak+jswMLxKzGBKZMxjZai6FHWTLwsA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.8 (that head fake, tho)
+Link: </buckets/s15444>; rel="up"
+Last-Modified: Fri, 25 Dec 2020 21:15:38 GMT
+ETag: "2ngHTIKRfNy7mHlNShG581"
+Date: Fri, 25 Dec 2020 21:19:33 GMT
+Content-Type: application/json
+Content-Length: 28
+
+{
+  "name": "Artur Shkred"
+}
