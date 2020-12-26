@@ -1,0 +1,6 @@
+Dodano do bazy dokument: 15444
+Dokument: 15444 - {"studiesAverage": 5.0, "requiredInternships": 0, "number": 15444, "name": "Artur Shkred"}
+Dokument: 15444 - został zaktualizowany (zmieniona wartość pola 'requiredInternships' na 320)
+Dokument: 15444 - {"studiesAverage": 5.0, "requiredInternships": 320, "number": 15444, "name": "Artur Shkred"}
+Dokument: 15444 - został usuniety
+NIE udało się znaleźć dokumentu: 15444 (Dokument: None)
